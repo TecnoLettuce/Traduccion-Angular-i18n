@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="Header" datatype="html">
+        <source>Traduction Trials</source>
+        <target>Cabecera en Español</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Titulo de prueba</note>
+        <note priority="1" from="meaning">Tarjeta del Header </note>
+      </trans-unit>
+      <trans-unit id="Description" datatype="html">
+        <source>this are some traduction samples of an angular application</source>
+        <target>Texto en Español</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description"> descripción del header</note>
+        <note priority="1" from="meaning">Tarjeta de descripción </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
